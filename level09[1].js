@@ -7,10 +7,9 @@ function findVowels (word) {
     vowelsInWord.push(vowels[i]);
   } 
   }
-  return console.log("Vowels: " + vowelsInWord);
+  return ("Vowels: " + vowelsInWord);
   }
   
- // return console.log(vowels);
 
   findVowels("muzi");
   findVowels("sino");

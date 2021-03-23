@@ -1,5 +1,6 @@
 function findVowels (word) {
-  var letters = word.split('');
+  var lowerLetters = word.toLowerCase();
+  var letters = lowerLetters.split('');
   var vowels = ['a', 'e', 'i', 'o', 'u'];
   var vowelsInWord = [];
   for (var i = 0; i < letters.length; i++) {
@@ -11,6 +12,4 @@ function findVowels (word) {
   }
   
 
-  findVowels("muzi");
-  findVowels("sino");
-  findVowels("unique");
+  console.log(findVowels("Indo"));

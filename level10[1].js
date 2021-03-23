@@ -8,7 +8,7 @@ function common (first, second) {
       commonLetters.push(firstList[i]);
       
     }
-  }return console.log("common letters: " + commonLetters);
+  }return ("common letters: " + commonLetters);
 }
 
-common("fix", "six");
+console.log(common("fix", "six"));

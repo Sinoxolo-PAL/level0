@@ -1,6 +1,6 @@
 function areaOfTriangle (b, h) {
   var area = 0.5 * (b * h);
-  return console.log (area);
+  return (area);
 }
 
-areaOfTriangle(2,3);
+console.log(areaOfTriangle(2,3));

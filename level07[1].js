@@ -1,10 +1,10 @@
 function celToFer (tempInCel) {
-  return console.log ((tempInCel * 1.8) + 32);
+  return (tempInCel * 1.8) + 32;
 }
 
 function ferToCel (tempInFer) {
-  return console.log ((tempInFer - 32) / 1.8);
+  return (tempInFer - 32) / 1.8;
 }
 
-celToFer (30);
-ferToCel (66);
+console.log(celToFer (30));
+console.log(ferToCel (66));

@@ -1,5 +1,5 @@
-function areaOfTriangle (b, h) {
-  var area = 0.5 * (b * h);
+function areaOfTriangle (b, h, s) {
+  var area = 0.5 * (b + h + s);
   return (area);
 }
 

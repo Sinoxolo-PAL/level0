@@ -1,8 +1,16 @@
 function intToTime (int) {
   var hours = Math.floor (int / 60);
   var min = int % 60;
-  console.log(hours + " hours," + " " + min + " minutes");
+  if (min > 1 && hours > 1) {
+    return hours + " hours," + " " + min + " minutes";
+  } else if (min > 1 && hours = 1) {
+    return hours + " hour," + " " + min + " minutes";
+  } else if (min = 1 && hours > 1) {
+    return hours + " hours," + " " + min + " minute";
+  } else if (min = 1 && hours = 1) {
+    return hours + " hour," + " " + min + " minute";
+  }
 }
 
-intToTime(71);
-intToTime (133);
+console.log(intToTime(71));
+console.log(intToTime(133));

@@ -1,12 +1,11 @@
 function maximum(a, b, c) {
-  var max = 0;
   if (a > b && a > c) {
-     console.log (a);
+     return a;
   } else if (b > a && b > c) {
-     console.log (b);
+     return b;
   } else {
-     console.log (c);
+     return c;
   }
 }
 
-maximum(1, 2, 3);
+console.log(maximum(1, 2, 3));

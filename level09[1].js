@@ -5,11 +5,11 @@ function findVowels (word) {
   var vowelsInWord = [];
   for (var i = 0; i < letters.length; i++) {
     if (letters[i] == 'a' || letters[i] == 'e' || letters[i] == 'i' || letters[i] == 'o' || letters[i] == 'u') {
-      vowelsInWord.push(vowels[i]);
+      vowelsInWord.push(letters[i]);
   } 
   }
   return "Vowels: " + vowelsInWord;
   }
   
 
-  console.log(findVowels("Indo"));
+  console.log(findVowels("Umuzi"));

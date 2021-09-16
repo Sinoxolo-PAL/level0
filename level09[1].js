@@ -5,7 +5,10 @@ function findVowels (word) {
   var vowelsInWord = [];
   for (var i = 0; i < letters.length; i++) {
     if (letters[i] == 'a' || letters[i] == 'e' || letters[i] == 'i' || letters[i] == 'o' || letters[i] == 'u') {
-      vowelsInWord.push(letters[i]);
+      var hasVowel = vowelsInWord.includes(letters[i]);
+      if (hasVowel == false) {
+        vowelsInWord.push(letters[i]);
+        }
   } 
   }
   return "Vowels: " + vowelsInWord;

@@ -11,8 +11,8 @@ function findVowels (word) {
         }
   } 
   }
-  return "Vowels: " + vowelsInWord;
+  console.log("Vowels: " + vowelsInWord);
   }
   
 
-  console.log(findVowels("Umuzi"));
+ findVowels("Umuzi");

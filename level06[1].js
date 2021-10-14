@@ -1,10 +1,10 @@
-function maximum(a, b, c) {
-  if (a > b && a > c) {
-     return a;
-  } else if (b > a && b > c) {
-     return b;
+function maximum(firstNum, secondNum, thirdNum) {
+  if (firstNum > secondNum && firstNum > thirdNum) {
+     return firstNum;
+  } else if (secondNum > firstNum && secondNum > thirdNum) {
+     return secondNum;
   } else {
-     return c;
+     return thirdNum;
   }
 }
 

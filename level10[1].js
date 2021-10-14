@@ -1,9 +1,9 @@
 function common (first, second) {
-  var firstList = first.split('');
-  var secondList = second.split('');
-  var commonLetters = [];
-  for (var a =0;a < firstList.length;a++)
-  for (var i =0;i < secondList.length;i++) {
+  let firstList = first.split('');
+  let secondList = second.split('');
+  let commonLetters = [];
+  for (let a =0;a < firstList.length;a++)
+  for (let i =0;i < secondList.length;i++) {
     if (secondList.includes(firstList[i]) && !(commonLetters.includes(firstList[i]))) {
       commonLetters.push(firstList[i]);
       
